@@ -31,3 +31,15 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.ui-index,.ui-about,.ui-setting{
+    display: none;
+}
+[data-status="index"] .ui-index{
+    display: block;
+}
+[data-status="about"] .ui-about{
+    display: block;
+}
+[data-status="setting"] .ui-setting{
+    display: block;
+}

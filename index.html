@@ -6,15 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/about.css"/>
+    <link rel="stylesheet" href="css/setting.css">
 </head>
-<body>
+<body data-status="index">
+    <canvas id="game">
+    
+    </canvas>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
     <div class="ui-index">
         <h1>飞机大作战</h1>
         <div class="btn-group">
             <button class="btn">开始游戏</button>
             <button class="btn">游戏设置</button>
             <button class="btn">游戏说明</button>
-        </div>
+        </div>     
+    </div>
+    <!--游戏说明-->
+    <div class="ui-about">
+        <h2>游戏说明</h2>
+        <p>通过手指移动飞机，躲避敌人，通过子弹射击敌人得分，游戏无限时，消灭小型飞机得100分，大型飞机得1000分</p>
+        <button class="btn">我明白了</button>
+    </div>
+    <!--游戏设置-->
+    <div class="ui-setting">
+        <h2>游戏设置</h2>
+        <ul class="setting-group">
+            <li class="setting">
+                <span>音乐设置</span>
+                <select name="" id="">
+                    <option value="">开启音乐</option>
+                    <option>关闭音乐</option>
+                </select>
+            </li>
+            <li class="setting">
+                <span>背景设置</span>
+                <select name="" id="">
+                    <option value="">背景1</option>
+                    <option>背景2</option>
+                    <option>背景3</option>
+                </select>
+            </li>
+            <li class="setting">
+                <span>战机设置</span>
+                <select name="" id="">
+                    <option value="">战机1</option>
+                    <option>战机2</option>
+                </select>
+            </li>
+        </ul>
+        <button class="btn">确认设置</button>
     </div>
 </body>
 </html>
