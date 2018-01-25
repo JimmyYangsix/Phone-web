@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    color: white;
+    background-image: url(../img/bg_1.jpg);
+}
+.ui-about{
+    width: 80%;
+    border: 2px solid white;
+    background-color: #070808;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    padding: 14px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -115px;
+    box-sizing: border-box;
+}
+.btn{
+    font-size: 18px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
